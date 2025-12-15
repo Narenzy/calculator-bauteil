@@ -13,8 +13,8 @@ function calculate() {
     const breite = parseFloat(breiteEl.value)||0;
     const menge = parseFloat(mengeEl.value)||0;
 
-        const sum =  (menge * dicke) + (breite * 2) 
-        outEl.textContent = "Folie ist " + sum + " mm Breit"
+        const sum =  (menge * dicke) + (breite * 2) + 300;
+        outEl.textContent = "Folienbreite " + sum + " mm"
         const sum1 = lange + number
-        out2El.textContent = "Folie ist " + sum1 + "mm länge" 
+        out2El.textContent = "Folienlänge " + sum1 + " mm" 
 }
