@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>
+             Kalkulator 
+        </title>
+        <script src ="calculator.js" defer></script>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <h1>
+            Diese ist  ein Kalkulator zur Berechnung der Folie
+        </h1>
+        <h2>
+            Bitte geben Sie den Wert Ihres grössten Bauteils ein! 
+        </h2>
+        <div id = "input-el">
+            <input type="number" id="lange-el" placeholder = "Länge">
+            <input type="number" id="breite-el" placeholder = "Breite">
+            <input type="number" id="dicke-el" placeholder = "Dicke">
+            <input type="number" id="menge-el" placeholder = "Anzahl">
+        </div>
+        <div>
+            <button onclick = "calculate()">Berechnen</button>
+        </div>
+        <div>
+            <output type = "number" id = "out-el"></output>
+        </div>
+        <div>   
+            <output type = "number" id = "out2-el"></output>
+        </div>
+    </body>
+</html>
